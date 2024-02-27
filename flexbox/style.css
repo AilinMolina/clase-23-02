@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* 
+VALORES POR DEFECTO/DEFAULT VALUES
+display: flex
+flex-direction: row
+flex-wrap: nowrap
+align-items: start
+justify-content: start
+*/
+section{
+    display: flex; /* nos activa el flexbox */
+    flex-wrap: nowrap;/* Default */
+    flex-direction: row;
+    background-color: green;
+    height: 600px;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 20px; */
+    padding: 0 60px;
+}
+
+section .caja{
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+    background-color: blueviolet;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.number{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px;
+}
+
+header .logo-container{
+    background-color: aqua;
+}
+
+header nav{
+    display: flex;
+    gap: 20px;
+    background-color: aqua;
+    align-items: center;
+}

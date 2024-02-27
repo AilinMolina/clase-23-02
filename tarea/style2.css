@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 90px;
+    background-color: rgb(53, 49, 49);
+}
+
+header .logo-container{
+    color: white;
+    font-size: 12px;
+}
+
+header nav{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+button{
+    border-radius: 30px;
+    border: none;
+    padding: 8px 20px;
+    background-color: rgb(27, 148, 148);
+    color: white;
+}

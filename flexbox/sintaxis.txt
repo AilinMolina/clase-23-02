@@ -1,0 +1,29 @@
+Quiero hacer una sección con 3 divs y que cada uno tenga una clase que se llame "caja":
+section>div.caja*3
+
+Las quiero una al lado de la otra, 1ra y 3ra pegada a los costados, la del medio separada, centrada verticalmente. Con el mismo espacio entre ellas: 
+-felxbox: es un elemento padre al cual le vamos a dar estilos para que acomode a sus hijos.
+
+En este caso, el elemento padre es la sección, y va acomodar a las 3 cajas.
+
+display: flex; nos activa el flexbox. Hace que todos los elementos esten en horizontal. Los hijos no pueden sobrepasar al ancho del padre. 
+Si queremos devolver esa capacidad usamos: 
+-flex-wrap: wrap;
+
+-flex-direction: ; nos va a marcar la dirección que tiene nuestro flexbox. Puede ser row(fila) o column(columna).
+-flex-direction: column-reverse|row-reverse; cambia el orden.
+
+-align-items: ; define el eje vertical.
+1) start: los centra al inicio.
+2) end: los centra al final.
+3) center: centra el contenido.
+
+-justify-content: ; define el eje horizontal.
+1) start
+2) end
+3) center
+4) space-between: hace que cada hijo tenga entre si una fracción del espacio sobrante.
+5) space-evenly: espacio entre cada hijo incluido en los bordes.
+5) space-around.
+
+-gap: espaciado entre los hijos. Si lo usamos, debemos dejar de usar el justify-content: space. Es útil en caso de adaptarla para otro dispositivo.
